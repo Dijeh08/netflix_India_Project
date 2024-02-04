@@ -53,7 +53,7 @@ where type is not null
 group by type;
 
 
---which countries produces movie that is posted more on india netflix
+--Country that produces movies/TVshows more on india netflix dashboard
 select production_country, count (production_country)
 from netflix_a
 group by production_country
